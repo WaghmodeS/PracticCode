@@ -1,0 +1,226 @@
+    /* Home page css */
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .homebg {
+        /* background-color: green; */
+        background-image: url('../img/bg.jpg');
+        background-size: cover;
+    }
+    /* .nav::before {
+        content: "";
+        background-color: rgb(160, 214, 240);
+    }
+     */
+    
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    nav {
+        background: rgb(216, 216, 213);
+        border-radius: 10px;
+        border-color: black;
+        box-shadow: 10px 10px grey;
+    }
+    
+    .navitem {
+        font-size: 20px;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    li {
+        font-size: 1.3rem;
+        font: bold;
+        /* margin: 20px 100px 50px 100px; */
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .listitem {
+        color: black;
+    }
+    
+    li a {
+        color: black;
+        margin: 20px 8px 50px 50px;
+        text-decoration: none;
+        font-family: Nanum Myeongjo;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    a:hover {
+        background: rgb(164, 181, 212);
+        border-radius: 10px;
+    }
+    /* .bgimg::before {
+    content: "";
+    position: absolute;
+    background: url('../img/2.jpg') no-repeat center center/cover;
+    height: 450px;
+    width: 1536px;
+    z-index: -1;
+    opacity: 0.89;
+} */
+    /* Login page css */
+    
+    .loginbg {
+        background-image: url('../img/logbg.png');
+        background-size: cover;
+    }
+    
+    #login {
+        margin-top: 20px;
+        font-size: 50px;
+        font-style: normal;
+        text-align: center;
+    }
+    
+    #loginimg {
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .f1 {
+        /* background-color: rgb(152, 231, 78); */
+        background: url('../img/signbg.jpg') no-repeat;
+        width: 300px;
+        border: 1px solid rgb(18, 19, 18);
+        border-radius: 10px;
+        padding: 50px;
+        margin: auto;
+        font-size: 25px;
+        font-style: normal;
+        text-align: center;
+        margin-top: 50px;
+        text-align: justify;
+        border-top-left-radius: 75px;
+        box-shadow: 10px 10px grey;
+    }
+    
+    .item {
+        margin-bottom: 20px;
+    }
+    
+    .item.hover {
+        background-color: aquamarine;
+    }
+    
+    .item1 {
+        font-size: 20px;
+        border: none;
+        border-bottom: 1px solid black;
+        background: transparent;
+        margin-bottom: 20px;
+    }
+    /* #Butt2 {
+    margin-left: 50px;
+} */
+    
+    .Butt {
+        margin-left: 50px;
+        padding: 3px 3px 3px 3px;
+        border-radius: 3px;
+        /* background-color: #c6bde6; */
+        font-size: 20px;
+        margin-top: 20px;
+        box-shadow: 2px 2px;
+    }
+    
+    .Butt:hover {
+        background-color: lightskyblue;
+    }
+    /* Sign up page css */
+    /* .signbg {
+        background: url(../img/bg.jpg );
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    } */
+    
+    #logosi {
+        margin-top: 50px;
+        width: 175px;
+        height: 175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .f2 {
+        background-color: rgb(201, 214, 223);
+        /* border: 1px solid black; */
+        /* background: url('../img/signbg.jpg') no-repeat center; */
+        border-radius: 50px;
+        width: 600px;
+        padding: 50px;
+        margin: auto;
+        font-size: 15px;
+        font-style: normal;
+        text-align: center;
+        /* margin-top: 50px; */
+        text-align: justify;
+        /* height: 400px; */
+        box-shadow: 10px 10px gray;
+    }
+    
+    #si {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .signcon {
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    
+    #but {
+        margin: auto;
+    }
+    
+    .signcon1 {
+        margin-bottom: 20px;
+        justify-content: center;
+        align-content: center;
+        text-align: justify;
+        font-size: medium;
+    }
+    
+    .signcon label {
+        font-size: 20px;
+    }
+    
+    .signcon input {
+        text-align: justify;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        text-decoration: none;
+        border: none;
+        border-bottom: 1px solid #1ed4245c;
+        background: transparent;
+        content: center;
+    }
+    
+    .signcon input:hover {
+        background-color: rgb(170, 226, 240);
+    }
+    
+    #but {
+        margin-left: 266px;
+        margin-right: auto;
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 3px 3px 3px 3px;
+        box-shadow: 2px 2px;
+    }
